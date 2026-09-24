@@ -98,19 +98,3 @@ def render_percentage(spent_pc, i):
         return ' o '
     else:
         return '   '
-
-food = Category('Food')
-food.deposit(1000, 'initial deposit')
-food.withdraw(10.15, 'groceries')
-food.withdraw(15.89, 'restaurant and more food for dessert')
-clothing = Category('Clothing')
-food.transfer(50, clothing)
-groceries = Category('Groceries')
-groceries.deposit(1000, 'initial deposit')
-groceries.withdraw(190.15, 'groceries')
-groceries.withdraw(15.89, 'restaurant and more groceries for dessert')
-groceries.transfer(50, clothing)
-print(food)
-
-test = create_spend_chart([food, groceries])
-print(test)
