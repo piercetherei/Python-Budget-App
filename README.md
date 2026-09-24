@@ -2,7 +2,7 @@
 An app that can be used to track your budget/spendings by categories, featuring a simple console chart that can be created to visualize your spendings.
 
 Instructions:
-You can create a category by assigning an instance of the Category class to a variable.
+```You can create a category by assigning an instance of the Category class to a variable.
 To deposit, use the .deposit(amount, description) method.
 To withdraw, use the .withdraw(amount, description) method.
 To transfer money between categories, use the .transfer(amount, category) method on the category you wanna transfer FROM, where the category argument should be a variable name and not a string.
@@ -58,3 +58,4 @@ Percentage spent by category
         i  
         e  
         s  
+```
