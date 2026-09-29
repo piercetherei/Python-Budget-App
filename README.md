@@ -1,5 +1,5 @@
 # Python-Budget-App
-An app that can be used to track your budget/spendings by categories, featuring a simple console chart that can be created to visualize your spendings.
+An app that can be used to track your budget/spendings by category, featuring a simple console chart that can be created to visualize your spendings.
 
 Instructions:
 ```You can create a category by assigning an instance of the Category class to a variable.
